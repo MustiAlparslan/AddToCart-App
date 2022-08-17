@@ -37,7 +37,6 @@ export default class CartSummary extends Component {
         </NavItem>
     )
   }
-
   render() {
     return <div>
         {this.props.cart.length > 0 ? this.renderSummary() : this.renderEmptyCart()}
